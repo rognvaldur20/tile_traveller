@@ -4,16 +4,16 @@ x = 1
 y = 1
 def possible_moves(x,y):
     if x ==  1 and y == 1:
-        print ("You can move east and south")
+        print ("You can travel: (E)ast or (S)outh.")
     #gera fyrir alla reitina?
 
 def east(x,y):
     if x == 3:
-        print("invalid")
+        print("Not a valid direction!")
     elif x == 1 and y == 1:
-        print("invalid")
+        print("Not a valid direction!")
     elif x == 2 and (y == 3 or y == 1):
-        print("invalid")
+        print("Not a valid direction!")
     else:
         x += 1
         return(x,y)
