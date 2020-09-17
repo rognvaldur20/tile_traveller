@@ -1,5 +1,9 @@
+# git clone https://github.com/rognvaldur20/tile_traveller.git
+
+
 print("Pálína var hérna")
 print("Pálína var hérna aftur")
+<<<<<<< HEAD
 
 
 
@@ -38,3 +42,5 @@ while (x != 3) and (y != 1):
         #o.s.frv
 
 print("Victory")
+=======
+>>>>>>> 8f0d78b15a0b92168c7ad51fc747deeaaef08b56
